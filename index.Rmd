@@ -2,6 +2,8 @@
 
 Let's plot the diamonds dataset using ggplot2. 
 
+If you would like to know more about diamonds docs then [click here](subpage.rmd)
+
 ```{r}
 #load libraries
 library(ggplot2)
