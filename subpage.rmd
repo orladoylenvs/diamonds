@@ -1,0 +1,4 @@
+# Diamonds Docs
+
+Let's link to diamonds docs. 
+[diamonds docs](https://ggplot2.tidyverse.org/reference/diamonds.html)

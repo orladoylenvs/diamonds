@@ -1,0 +1,30 @@
+# Diamonds Viz
+
+Let's plot the diamonds dataset using ggplot2. 
+
+If you would like to know more about diamonds docs then [click here](subpage.rmd)
+
+```{r}
+#load libraries
+library(ggplot2)
+```
+
+Let's take a quick look at the data.
+```{r}
+head(diamonds)
+```
+
+View the diamonds dataset as counts by ::: {.callout}
+```{r}
+ggplot(data = diamonds,
+   aes(x = cut, y = price))+
+geom_histogram( stat = "identity")
+```
+
+Let's log the date and time. 
+
+```{r}
+library(lubridate)
+my_time <- now(tzone = "America/Vancouver")
+my_time
+```
